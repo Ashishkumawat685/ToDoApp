@@ -1,0 +1,117 @@
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+.main_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: rgba(66, 64, 64, 0.685);
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+section.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+
+}
+
+form input {
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: 10px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+form button {
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: aqua;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.list_content ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.list_content ul li {
+    list-style: none;
+    background: white;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    text-align: justify;
+    user-select: none;
+}
+
+
+.date_time h1 {
+    margin-bottom: 20px;
+    color: gold;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+
+.ClearBtn button {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 13px;
+    background: gold;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.checked {
+    text-decoration: line-through;
+}
+
+.notchecked {
+    text-decoration: none;
+}
